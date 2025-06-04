@@ -1,0 +1,21 @@
+# Node modules folder (heavy and should not be pushed)
+node_modules/
+
+# Environment variables file (contains sensitive info)
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build folders (if any)
+dist/
+build/
+
+# IDE specific files (for example, VS Code)
+.vscode/
