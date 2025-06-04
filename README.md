@@ -1,4 +1,4 @@
-##😊 Backend Learning Journey
+😊 Backend Learning Journey
 
 This repository tracks my progress as I learn backend development.  
 I’m starting from the basics and gradually moving to professional backend setups with clean code, error handling, and API design.
