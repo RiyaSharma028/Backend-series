@@ -24,3 +24,14 @@ I’m starting from the basics and gradually moving to professional backend setu
 - Created `ApiError` class to handle custom errors effectively.
 - Built `asyncHandler` utility to catch errors in async functions easily.
 
+## Day 4 – Authentication & Schema Enhancements
+
+- Created two Mongoose models: `User` and `Video`.
+- Learned and implemented **JWT-based authentication**, using:
+  - Access Tokens (short-lived) for secure API access
+  - Refresh Tokens (long-lived) stored in HTTP-only cookies
+- Understood and implemented **pre/post hooks** (Mongoose middleware) for automating logic like password hashing.
+- Added **custom instance methods** to the User schema for reusable logic (e.g., comparing hashed passwords).
+- Integrated **bcrypt** to securely hash passwords before saving them to the database.
+
+
