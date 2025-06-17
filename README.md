@@ -34,4 +34,9 @@ I’m starting from the basics and gradually moving to professional backend setu
 - Added **custom instance methods** to the User schema for reusable logic (e.g., comparing hashed passwords).
 - Integrated **bcrypt** to securely hash passwords before saving them to the database.
 
+## Day 5– Routes & Controllers (Professional Standard)
 
+- Learned how to create modular routes using express.Router().
+- Separated route definitions from business logic by using controllers.
+- Connected all route files in the main app using app.use() with base paths like /api/v1/users
+- Followed professional practices by maintaining a clear folder structure.
